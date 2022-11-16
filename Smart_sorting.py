@@ -1,0 +1,5 @@
+print('Task 3')
+elements = (-20, 15, 10, -5)
+sorted_elements = sorted(elements, key=abs)
+print('Элементы кортежа: ', elements)
+print('Отсортированные значения: ', tuple(sorted_elements), '\n')
