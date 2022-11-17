@@ -9,7 +9,7 @@ sorted_elements = sorted(elements)
 print('Отсортированный список: ', sorted_elements)
 print('Медиана списка (нахождение с помощью модуля statistics: ', statistics.median(elements))
 
-if (length % 2 == 1):
+if length % 2 == 1:
     mid_index = length // 2
     print('Медиана списка: ', sorted_elements[mid_index])
 else:
